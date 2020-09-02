@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="site-header py-1">
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+          <a class="py-2 d-none d-md-inline-block" href="#">Account</a>
+        </div>
+      </nav>
+
+    <div class="main-head">Is your car affected by recalls?</div>
+
+    <div class="main-form">
+        <form class="form-signin">
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <label for="inputMake" class="sr-only">Make</label>
+                    <input type="text" id="inputMakeTxt" class="form-control" placeholder="Make" required autofocus>
+                </div>
+
+                <div class="col-lg-4">
+                    <label for="inputModel" class="sr-only">Model</label>
+                    <input type="text" id="inputModelTxt" class="form-control" placeholder="Model" required>
+                </div>
+
+                <div class="col-lg-4">
+                    <label for="inputYear" class="sr-only">Year</label>
+                    <input type="text" id="inputYearTxt" class="form-control" placeholder="Year" required>
+                </div>
+            </div>
+      </form>
+
+      <button class="btn btn-lg btn-primary btn-block" type="submit">CHECK</button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2020-2021</p>
+
+    </div>
+
+</body>
+</html>
